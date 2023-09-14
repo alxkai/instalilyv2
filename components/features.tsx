@@ -59,7 +59,7 @@ export default function Features() {
               {/* Image */}
               <div className="max-w-full md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up" data-aos-anchor="[data-aos-id-features-home]">
                 <div className="relative">
-                <video className="md:max-w-none" width="100%" autoPlay muted controls>
+                <video className="md:max-w-none" width="100%" autoPlay muted loop>
                     <source src="/videos/vid00.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
