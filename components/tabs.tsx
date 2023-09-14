@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef, useState, useEffect } from 'react'
-
+import FeatIllustration from '@/public/images/features-illustration.png'
 import Image from 'next/image'
 import { Transition } from '@headlessui/react'
 import TabsImage01 from '@/public/images/tabs-image-01.jpg'
@@ -102,7 +102,17 @@ export default function Tabs() {
                 >
                   <article className="relative max-w-md mx-auto md:max-w-none">
                     <figure className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
-                      <Image className="w-full h-full object-cover" src={TabsImage01} width={516} height={387} alt="Tabs 01" />
+
+                        <Image className="md:max-w-full" src={FeatIllustration} width={540} height={520} alt="Features illustration" />
+                        <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="540" height="520" viewBox="0 0 540 520" xmlns="http://www.w3.org/2000/svg">
+                          <g className="fill-current text-purple-600">
+                            <circle className="pulse" cx="270" cy="260" r="64" />
+                            <circle className="pulse pulse-1" cx="270" cy="260" r="64" />
+                            <circle className="pulse pulse-2" cx="270" cy="260" r="64" />
+                            <circle className="pulse pulse-3" cx="270" cy="260" r="64" />
+                          </g>
+                        </svg>
+
                     </figure>
                     <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pr-16 md:max-w-lg lg:max-w-xl">
                       <h4 className="h4 mb-2">Optimize and scale, easy to start</h4>
