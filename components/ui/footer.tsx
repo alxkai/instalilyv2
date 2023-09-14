@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="#home" className="block" aria-label="Instalily">
+                <Link href="/" className="block" aria-label="Instalily">
                   <Image src={LogoWhite} alt="Logo" className="w-[250px]" />
                 </Link>
               </div>

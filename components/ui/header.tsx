@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from 'next/image'
 import Link from 'next/link'
 import Dropdown from '@/components/utils/dropdown'
 import MobileMenu from './mobile-menu'
@@ -6,13 +6,13 @@ import LogoWhite from '@/public/images/logo_white.svg'
 
 export default function Header() {
   return (
-    <header id="home" className="absolute w-full z-30 bg-[#181818]">
-      <div className="max-w-full mx-auto px-4 sm:px-6">
+    <header  className="absolute w-full z-30 bg-[#181818]">
+      <div id="home" className="max-w-full mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="#home" className="block" aria-label="Instalily">
+            <Link href="/" className="block" aria-label="Instalily">
               <Image src={LogoWhite} alt="Logo" className="w-[250px]" />
             </Link>
           </div>
