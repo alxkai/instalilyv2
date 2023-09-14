@@ -50,7 +50,7 @@ export default function Features() {
         </div>
 
 
-        <div className="border-t border-gray-800">
+        <div>
 
           {/* Items */}
           <div className="grid gap-20" data-aos-id-features-home>
