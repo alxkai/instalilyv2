@@ -12,6 +12,20 @@ import TeamImage09 from '@/public/images/team08.png'
 import TeamImage10 from '@/public/images/team09.png'
 import TeamImage11 from '@/public/images/team10.png'
 
+import TeamLogo00 from '@/public/images/teamlogo00.svg'
+import TeamLogo01 from '@/public/images/teamlogo01.svg'
+import TeamLogo02 from '@/public/images/teamlogo02.svg'
+import TeamLogo03 from '@/public/images/teamlogo03.svg'
+import TeamLogo04 from '@/public/images/teamlogo04.svg'
+import TeamLogo05 from '@/public/images/teamlogo05.svg'
+import TeamLogo06 from '@/public/images/teamlogo06.svg'
+import TeamLogo07 from '@/public/images/teamlogo07.svg'
+import TeamLogo08 from '@/public/images/teamlogo08.svg'
+import TeamLogo09 from '@/public/images/teamlogo09.svg'
+import TeamLogo10 from '@/public/images/teamlogo10.svg'
+import TeamLogo11 from '@/public/images/teamlogo11.svg'
+
+
 export default function Team() {
   return (
     <section>
@@ -32,8 +46,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage01} width={120} height={120} alt="Team member 01" />
                 <h4 className="text-xl font-medium mb-1">Amit Shah</h4>
-                <div className="text-gray-500 mb-1">Founder & CEO</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@laraamprecht</a>
+                <div className="text-[#A2F9DA] mb-1">Founder & CEO</div>
+                <Image className="mb-0 mt-2" src={TeamLogo00} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -42,8 +56,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage02} width={120} height={120} alt="Team member 02" />
                 <h4 className="text-xl font-medium mb-1">Karim Motani</h4>
-                <div className="text-gray-500 mb-1">VP, Business Development</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@marie_moon</a>
+                <div className="text-[#A2F9DA] mb-1">VP, Business Development</div>
+                <Image className="mb-0 mt-2" src={TeamLogo01} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -52,8 +66,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage03} width={120} height={120} alt="Team member 03" />
                 <h4 className="text-xl font-medium mb-1">Sumantro Das</h4>
-                <div className="text-gray-500 mb-1">VP, Product & Partnerships</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@mr_sebastian</a>
+                <div className="text-[#A2F9DA] mb-1">VP, Product & Partnerships</div>
+                <Image className="mb-0 mt-2" src={TeamLogo02} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -62,8 +76,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage04} width={120} height={120} alt="Team member 04" />
                 <h4 className="text-xl font-medium mb-1">Hongyi Wu</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@timothychandran</a>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo03} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -72,8 +86,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage05} width={120} height={120} alt="Team member 05" />
                 <h4 className="text-xl font-medium mb-1">Cristin Connerney</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA]  hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@dominikprasad</a>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo04} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -82,8 +96,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage06} width={120} height={120} alt="Team member 06" />
                 <h4 className="text-xl font-medium mb-1">Iris Cheng</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@daryamagic</a>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo05} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -92,8 +106,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage07} width={120} height={120} alt="Team member 07" />
                 <h4 className="text-xl font-medium mb-1">Alex Kim</h4>
-                <div className="text-gray-500 mb-1">Product Designer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@quentinrenvoye</a>
+                <div className="text-[#A2F9DA] mb-1">Product Designer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo06} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -102,8 +116,8 @@ export default function Team() {
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage08} width={120} height={120} alt="Team member 08" />
                 <h4 className="text-xl font-medium mb-1">Morgann Thain</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo07} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -111,9 +125,9 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage09} width={120} height={120} alt="Team member 08" />
-                <h4 className="text-xl font-medium mb-1">Morgann Thain</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
+                <h4 className="text-xl font-medium mb-1">Dhiraj Khanal</h4>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo08} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -121,9 +135,9 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage10} width={120} height={120} alt="Team member 08" />
-                <h4 className="text-xl font-medium mb-1">Morgann Thain</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
+                <h4 className="text-xl font-medium mb-1">Mateo Godoy</h4>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo09} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
@@ -131,9 +145,9 @@ export default function Team() {
             <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
               <div className="flex flex-col items-center">
                 <Image className="rounded-full mb-4" src={TeamImage11} width={120} height={120} alt="Team member 08" />
-                <h4 className="text-xl font-medium mb-1">Morgann Thain</h4>
-                <div className="text-gray-500 mb-1">Software Engineer</div>
-                <a className="block text-[#A2F9DA] hover:text-gray-200 transition duration-150 ease-in-out" href="#0">@hello_chuzeville</a>
+                <h4 className="text-xl font-medium mb-1">Prashanthi<br/>Ramachandran</h4>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo10} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 
