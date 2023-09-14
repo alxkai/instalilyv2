@@ -23,12 +23,12 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <Link href="/features" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  FEATURES
+                  WHO WE ARE
                 </Link>
               </li>
               <li>
                 <Link href="/pricing" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  ABOUT US
+                  WHAT WE DO
                 </Link>
               </li>
               <li>
