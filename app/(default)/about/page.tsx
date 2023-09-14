@@ -16,13 +16,9 @@ export default function About() {
   return (
     <>
       <HeroAbout />
-      <TeamImages />
-      <Timeline />
+
       <Team />
-      <TestimonialsCarousel />
       <Career />
-      <Clients />
-      <Newsletter />
     </>
   )
 }

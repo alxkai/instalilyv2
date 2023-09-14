@@ -5,10 +5,10 @@ import Link from 'next/link'
 
 export default function HeroHome() {
   return (
-    <section>
+    <section className="bg-[#A2F9DA]">
       <div className="w-full mx-auto px-4 sm:px-6 relative">
         {/* Hero content */}
-        <div className="pt-10 pb-10 bg-[#A2F9DA] w-full">
+        <div className="pt-10 pb-10 w-full">
 
           {/* Section header */}
           <div className="max-w-full text-center p-10 pb-10">
