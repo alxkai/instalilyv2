@@ -58,9 +58,3 @@
     display: block;
 }
 }
-
-.bg-with-blur {
-    background-color: rgba(24, 24, 24, 1); /* Fully opaque background */
-    transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
-    /* Other styles for your background */
-  }
