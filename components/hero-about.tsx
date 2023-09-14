@@ -9,7 +9,7 @@ export default function HeroAbout() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image className="w-full h-full object-cover" src={HeroImage} width={1440} height={394} priority alt="About" />
-        <div className="absolute inset-0 bg-gray-900 opacity-50" aria-hidden="true"></div>
+        <div className="absolute inset-0 bg-gray-900 opacity-30" aria-hidden="true"></div>
       </div>
 
       {/* Hero content */}

@@ -1,7 +1,7 @@
 export default function Career() {
   return (
     <section className="bg-[#F2F2F2]">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 ">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 ">
         <div className="pb-12 md:pb-20">
 
           {/* Section header */}
