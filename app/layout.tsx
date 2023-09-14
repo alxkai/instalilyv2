@@ -1,3 +1,4 @@
+
 import './css/style.css'
 import { Inter, Architects_Daughter } from 'next/font/google'
 import Header from '@/components/ui/header'
@@ -28,8 +29,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-[#181818] tracking-tight`}>
-        <div className="flex flex-col min-h-screen w-full overflow-hidden">
+        <div className="flex flex-col h-[80px] w-full overflow-hidden sticky z-30 top-0 ">
           <Header />
+          
+        </div>
+        <div className="flex flex-col w-full overflow-hidden  ">
           {children}
         </div>
       </body>

@@ -6,13 +6,13 @@ import LogoWhite from '@/public/images/logo_white.svg'
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 sticky top-0 bg-[#181818]">
+    <header id="home" className="absolute w-full z-30 bg-[#181818]">
       <div className="max-w-full mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Instalily">
+            <Link href="#home" className="block" aria-label="Instalily">
               <Image src={LogoWhite} alt="Logo" className="w-[250px]" />
             </Link>
           </div>
