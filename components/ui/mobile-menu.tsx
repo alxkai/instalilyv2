@@ -56,30 +56,31 @@ export default function MobileMenu() {
       <nav 
         id="mobile-nav"
         ref={mobileNav}
-        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+        className="absolute top-full z-20 left-0 w-full overflow-hidden transition-all duration-300 ease-in-out"
         style={mobileNavOpen ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 } : { maxHeight: 0, opacity: 0.8 }}
       >
-        <ul className="bg-gray-800 px-4 py-2">
+        <ul className="bg-[#181818] px-4 py-0">
           <li>
-            <Link href="/features" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Features
+            <Link href="/features" className="GraebenbachMonoMed text-[18px] flex text-[#F2F2F2] hover:text-gray-200 py-4 border-b border-gray-100" onClick={() => setMobileNavOpen(false)}>
+              What We Do
             </Link>
           </li>
           <li>
-            <Link href="/pricing" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Pricing
+            <Link href="/pricing" className="GraebenbachMonoMed text-[18px] flex text-[#F2F2F2] hover:text-gray-200 py-4 border-b border-gray-100" onClick={() => setMobileNavOpen(false)}>
+              Who We Are
             </Link>
           </li>
           <li>
-            <Link href="/blog" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              Blog
+            <Link href="/blog" className="GraebenbachMonoMed text-[18px] flex text-[#F2F2F2] hover:text-gray-200 py-4 border-b border-gray-100" onClick={() => setMobileNavOpen(false)}>
+              News
             </Link>
           </li>
           <li>
-            <Link href="/about" className="flex text-gray-300 hover:text-gray-200 py-2" onClick={() => setMobileNavOpen(false)}>
-              About us
+            <Link href="/about" className="GraebenbachMonoMed text-[18px] flex text-[#F2F2F2] hover:text-gray-200 py-4" onClick={() => setMobileNavOpen(false)}>
+              Team
             </Link>
           </li>
+          {/*
           <li className="py-2 my-2 border-t border-b border-gray-700">
             <span className="flex text-gray-300 py-2">Support</span>
             <ul className="pl-4">
@@ -113,6 +114,7 @@ export default function MobileMenu() {
               Sign up
             </Link>
           </li>
+  */}
         </ul>
       </nav>
     </div>
