@@ -27,7 +27,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="#what-we-are" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link href="#what-we-do" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   WHAT WE DO
                 </Link>
               </li>
