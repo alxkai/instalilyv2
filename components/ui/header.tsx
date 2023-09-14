@@ -22,17 +22,17 @@ export default function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="/features" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link href="#who-we-are" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   WHO WE ARE
                 </Link>
               </li>
               <li>
-                <Link href="/pricing" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link href="#what-we-are" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   WHAT WE DO
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link href="#news" className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   NEWS
                 </Link>
               </li>

@@ -16,7 +16,6 @@ export default function About() {
   return (
     <>
       <HeroAbout />
-
       <Team />
       <Career />
     </>
