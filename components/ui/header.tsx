@@ -6,7 +6,7 @@ import LogoWhite from '@/public/images/logo_white.svg';
 
 export default function Header() {
   return (
-    <header className="absolute w-full z-30 bg-[#181818]">
+    <header className="absolute w-full bg-[#181818]">
       <div id="home" className="max-w-full mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           {/* Site branding */}

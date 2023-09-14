@@ -53,7 +53,7 @@ export default function MobileMenu() {
       </button>
 
       {/*Mobile navigation */}
-      <nav
+      <nav 
         id="mobile-nav"
         ref={mobileNav}
         className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
