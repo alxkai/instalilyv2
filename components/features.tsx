@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export default function Features() {
   return (
-    <section id="who-we-are">
+    <section id="what-we-do">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-20 pb-20 items-start md:max-w-none">
           {/* 1st item */}
