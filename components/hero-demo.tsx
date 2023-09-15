@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import HeroImage from '@/public/images/about-hero.jpg'
 
-export default function HeroAbout() {
+export default function HeroDemo() {
   return (
     <section className="relative">
 
@@ -16,7 +16,7 @@ export default function HeroAbout() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="h1 mb-4 GraebenbachMono text-[#F2F2F2]" data-aos="fade-up">MEET OUR TEAM</h1>
+            <h1 className="h1 mb-4 GraebenbachMono text-[#F2F2F2]" data-aos="fade-up">Welcome to our Demo Page</h1>
           </div>
         </div>
       </div>

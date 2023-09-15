@@ -13,16 +13,16 @@ export default function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
 
             {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
+            <div className="col-span-0 md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="block" aria-label="Instalily">
                   <Image src={LogoWhite} alt="Logo" className="w-[250px]" />
                 </Link>
               </div>
-              <div className="GraebenbachMono text-[14px] text-gray-400 ml-14 mt-4">
-                433 Broadway 207<br/>
-                New York, NY 10013<br/>
+              <div className="GraebenbachMono text-[14px] text-gray-400 ml-14 mt-4 hidden sm:block">
+                433 Broadway 207<br />
+                New York, NY 10013<br />
                 hello@instalily.ai
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function Footer() {
               </div>
 
               {/* 4th block */}
-              <div className="text-sm">
+              <div className="text-sm hidden sm:block">
                 <h6 className="text-gray-200 align-center font-medium mb-1">Company</h6>
                 <ul>
                   <li className="mb-1">

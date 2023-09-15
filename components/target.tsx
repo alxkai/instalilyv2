@@ -40,7 +40,7 @@ export default function Target() {
                   <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Instalily Decisioning System</span></h4>
                     <p className="text-lg text-gray-400">We have developed a sophisticated decisioning system that optimizes cost, required output fidelity, potential for hallucination, and the balance between reasoning and action. This ensures that your business LLM will be tailored to your unique needs.</p>
                   </div>
-                  <div className="mb-12">
+                  <div className="mb-12" >
                     <Link href="/about" target="_blank" rel="noopener noreferrer" className="btn-sm pt-2.5 GraebenbachMonoMed text-[#181818] text-[14px] bg-[#A2F9DA] hover:bg-[#E0FF1F] w-full">
                       LEARN MORE ABOUT OUR TEAM
                     </Link>
