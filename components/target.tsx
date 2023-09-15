@@ -25,7 +25,7 @@ export default function Target() {
               </div>
 
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
+              <div className="max-w-xl mb-10 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
                     <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">.</span> For developers</h4>

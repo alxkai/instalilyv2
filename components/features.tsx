@@ -27,7 +27,7 @@ export default function Features() {
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right" data-aos-anchor="[data-aos-id-features-home]">
-                <div className="md:pr-4 lg:pr-12 xl:pr-16">
+                <div className="md:pr-4 pt-4 pb-4 lg:pr-12 xl:pr-16">
                   <div className="GraebenbachMono text-[#F2F2F2] text-xl mb-1">Lightning fast workflow</div>
                   <h3 className="GraebenbachMonoMed text-[#A2F9DA] text-[44px] mb-1">CREATIVE AI AGENT</h3>
                   <p className="text-xl text-gray-400 mb-4">Companies depend on Instalily to turbocharge their business through our conversational assistant and Enterprise-grade Insights Platform. </p>

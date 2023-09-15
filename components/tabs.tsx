@@ -7,6 +7,7 @@ import { Transition } from '@headlessui/react'
 import TabsImage01 from '@/public/images/tab1.jpg'
 import TabsImage02 from '@/public/images/tab2.jpg'
 import TabsImage03 from '@/public/images/tab3.jpg'
+import Icon00 from '@/public/images/icon00.svg'
 
 export default function Tabs() {
 
@@ -25,7 +26,7 @@ export default function Tabs() {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+        <div className="py-12 md:py-20">
 
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center pb-12" data-aos-id-tabs>
@@ -44,36 +45,32 @@ export default function Tabs() {
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 1 && 'opacity-50'}`}
                 onClick={() => setTab(1)}
               >
-                <svg className="w-4 h-4 fill-current text-[#A2F9DA] mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M13.5 5.5c-.311.001-.62.061-.909.177l-2.268-2.268c.116-.29.176-.598.177-.909a2.5 2.5 0 00-5 0c.001.311.061.62.177.909L3.409 5.677A2.473 2.473 0 002.5 5.5a2.5 2.5 0 000 5c.311-.001.62-.061.909-.177l2.268 2.268c-.116.29-.176.598-.177.909a2.5 2.5 0 105 0 2.473 2.473 0 00-.177-.909l2.268-2.268c.29.116.598.176.909.177a2.5 2.5 0 100-5zM8 11c-.311.001-.62.061-.909.177L4.823 8.909a2.423 2.423 0 000-1.818l2.268-2.268a2.423 2.423 0 001.818 0l2.268 2.268a2.423 2.423 0 000 1.818l-2.268 2.268A2.473 2.473 0 008 11z" />
-                </svg>
+
                 <span className="text-[#F2F2F2] GraebenbachMono group-hover:text-[#A2F9DA] transition-colors mt-1 duration-150 ease-in-out">MARKETING</span>
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 2 && 'opacity-50'}`}
                 onClick={() => setTab(2)}
               >
-                <svg className="w-4 h-4 fill-current text-[#A2F9DA] mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9.043 6.293S9.79 1.905 6.745 0A5.37 5.37 0 014.72 3.887C3.42 5.03.974 7.6 1 10.34A6.285 6.285 0 004.451 16a3.984 3.984 0 011.394-2.755 3.253 3.253 0 001.246-2.185 5.856 5.856 0 013.1 4.881v.013a5.883 5.883 0 003.428-5.106c.216-2.574-1.194-6.074-2.445-7.218a6.793 6.793 0 01-2.13 2.663z" />
-                </svg>
                 <span className="text-[#F2F2F2] GraebenbachMono group-hover:text-[#A2F9DA] transition-colors mt-1 duration-150 ease-in-out">CUSTOMER SERVICE</span>
               </button>
               <button
                 className={`flex items-center font-medium py-2 px-4 m-2 bg-gray-800 rounded-full group transition duration-500 ${tab !== 3 && 'opacity-50'}`}
                 onClick={() => setTab(3)}
               >
-                <svg className="w-4 h-4 fill-current text-[#A2F9DA] mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 10c-1.1 0-2-.9-2-2 0-.2 0-.3.1-.5L3.6 5 5 3.6l2.5 2.5c.2-.1.3-.1.5-.1 1.1 0 2 .9 2 2s-.9 2-2 2z" />
-                </svg>
                 <span className="text-[#F2F2F2] GraebenbachMono group-hover:text-[#A2F9DA] transition-colors mt-1 duration-150 ease-in-out">E-COMMERCE</span>
               </button>
             </div>
 
             {/* Tabs items */}
             <div className="transition-all">
-              <div className="relative flex flex-col mt-16" data-aos="fade-up" ref={tabs}>
+              <div className="relative flex flex-col mt-16 pb-10" data-aos="fade-up" ref={tabs}>
 
                 {/* Item 1 */}
+                <div
+                  className="relative w-full mx-auto cursor-pointer"
+                  onClick={() => setTab(2)} // Set the new tab index when clicked
+                >
                 <Transition
                   show={tab === 1}
                   className="w-full"
@@ -122,8 +119,13 @@ export default function Tabs() {
                     </div>
                   </article>
                 </Transition>
+                </div>
 
                 {/* Item 2 */}
+                <div
+                  className="relative w-full mx-auto cursor-pointer"
+                  onClick={() => setTab(3)} // Set the new tab index when clicked
+                >
                 <Transition
                   show={tab === 2}
                   className="w-full"
@@ -172,8 +174,13 @@ export default function Tabs() {
                     </div>
                   </article>
                 </Transition>
+                </div>
 
                 {/* Item 3 */}
+                <div
+                  className="relative w-full mx-auto cursor-pointer"
+                  onClick={() => setTab(1)} // Set the new tab index when clicked
+                >
                 <Transition
                   show={tab === 3}
                   className="w-full"
@@ -222,17 +229,19 @@ export default function Tabs() {
                     </div>
                   </article>
                 </Transition>
+                </div>
 
               </div>
             </div>
 
           </div>
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-20 pb-10 items-start md:max-w-none"  id="who-we-are">
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-20 pb-0 items-start md:max-w-none"  id="who-we-are">
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up">
               <div aria-hidden="true" className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block" style={{ width: 'calc(100% - 32px)', left: 'calc(50% + 48px)', top: '32px' }} data-aos="fade-in" data-aos-delay="200"></div>
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                {/* Outer Circle Border */}
+                <circle className="stroke-current text-purple-600" cx="32" cy="32" r="30" strokeWidth="2" fill="none" />
                 <path className="stroke-current text-purple-300" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
@@ -240,15 +249,17 @@ export default function Tabs() {
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
 
+
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
               <div aria-hidden="true" className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block" style={{ width: 'calc(100% - 32px)', left: 'calc(50% + 48px)', top: '32px' }} data-aos="fade-in" data-aos-delay="400"></div>
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-300" d="M40 22a2 2 0 012 2v16a2 2 0 01-2 2H24a2 2 0 01-2-2V24a2 2 0 012-2" strokeWidth="2" strokeLinecap="square" />
-                  <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M36 32l-4-3-4 3V22h8z" />
-                </g>
+                {/* Outer Circle Border */}
+                <circle className="stroke-current text-purple-600" cx="32" cy="32" r="30" strokeWidth="2" fill="transparent" />
+                {/* Inner Circle Border */}
+                <circle className="stroke-current text-purple-100" cx="32" cy="32" r="20" strokeWidth="2" fill="transparent" />
+                {/* Solid Circle in the Center (Pulsing) */}
+                <circle className="animate-pulse" cx="32" cy="32" r="10" fill="#A2F9DA" />
               </svg>
               <h4 className="GraebenbachMono h4 mb-2 text-[#F2F2F2]">2. ACTIVATION</h4>
               <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -257,7 +268,8 @@ export default function Tabs() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                {/* Outer Circle Border */}
+                <circle className="stroke-current text-purple-600" cx="32" cy="32" r="30" strokeWidth="2" fill="none" />
                 <path className="stroke-current text-purple-300" strokeWidth="2" strokeLinecap="square" d="M21 35l4 4 12-15" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-100" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
