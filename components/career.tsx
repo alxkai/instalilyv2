@@ -5,7 +5,7 @@ export default function Career() {
         <div className="pb-12 md:pb-20">
 
           {/* Section header */}
-          <h3 className="h3 mb-8 pt-8">Open positions</h3>
+          <h3 className="h3 mb-8 pt-8">Careers</h3>
 
           {/* Job list */}
           <div className="-my-3" data-aos-id-career>
