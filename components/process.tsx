@@ -15,8 +15,10 @@ export default function Process() {
           </div>
 
           <div className="max-w-6xl mx-auto text-center text-[#F2F2F2] ">
-            <p className="mb-4 GraebenbachMonoMed text-[30px] text-[#181818] sm:text-[36px]" data-aos="fade-up">AUTOMATE GROWTH FOR YOUR BUSINESS</p>
-            <p className="GraebenbachMonoMed text-[#181818]  text-[20px] sm:text-[22px] pb-12" data-aos="fade-up" data-aos-delay="200">Transform your marketing through the power of LLMs.</p>
+            <p className="mb-1 GraebenbachMonoMed text-[30px] text-[#181818] sm:text-[36px]" data-aos="fade-up">AUTOMATE GROWTH FOR YOUR BUSINESS</p>
+            <p className="GraebenbachMono text-[#181818]  text-[18px] sm:text-[22px] pb-12" data-aos="fade-up" data-aos-delay="200">
+              Make data-driven decisions, reduce costs, and accelerate business growth.
+            </p>
           </div>
 
         </div>
