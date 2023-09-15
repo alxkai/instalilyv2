@@ -11,6 +11,7 @@ import TeamImage08 from '@/public/images/team07.png'
 import TeamImage09 from '@/public/images/team08.png'
 import TeamImage10 from '@/public/images/team09.png'
 import TeamImage11 from '@/public/images/team10.png'
+import TeamImage12 from '@/public/images/team11.png'
 
 import TeamLogo00 from '@/public/images/teamlogo00.svg'
 import TeamLogo01 from '@/public/images/teamlogo01.svg'
@@ -148,6 +149,16 @@ export default function Team() {
                 <h4 className="text-xl font-medium mb-1">Prashanthi<br/>Ramachandran</h4>
                 <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
                 <Image className="mb-0 mt-2" src={TeamLogo10} alt="Team member 01" style={{ opacity: 0.6 }} />
+              </div>
+            </div>
+
+            {/* 12th member */}
+            <div className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3" data-aos="fade-up" data-aos-delay="700" data-aos-anchor="[data-aos-id-team]">
+              <div className="flex flex-col items-center">
+                <Image className="rounded-full mb-4" src={TeamImage12} width={120} height={120} alt="Team member 08" />
+                <h4 className="text-xl font-medium mb-1">Logan Ge</h4>
+                <div className="text-[#A2F9DA] mb-1">Software Engineer</div>
+                <Image className="mb-0 mt-2" src={TeamLogo11} alt="Team member 01" style={{ opacity: 0.6 }} />
               </div>
             </div>
 

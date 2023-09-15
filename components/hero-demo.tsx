@@ -13,12 +13,12 @@ export default function HeroDemo() {
     >
 
       {/* Hero content */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="w-full bg-gray-900 w-full bg-opacity-50 mx-auto px-4 sm:px-6 relative">
         <div className="pt-32 pb-12 md:pt-30 md:pb-20">
-          <div className="max-w-6xl mx-auto text-center">
-            <h1 className="h2 mb-14 nd:mb-8 GraebenbachMono text-[#F2F2F2]" data-aos="fade-up" style={{ letterSpacing: '0.05em' }}>
-              INSTALILY DEMOS
-            </h1>
+          <div className="max-w-6xl mx-auto text-center relative">
+              <h1 className="h2 mb-14 nd:mb-8 GraebenbachMono text-[#F2F2F2]" data-aos="fade-up" style={{ letterSpacing: '0.05em' }}>
+                INSTALILY DEMO REELS
+              </h1>
           </div>
         </div>
       </div>

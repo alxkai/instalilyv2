@@ -4,20 +4,13 @@ export const metadata = {
 }
 
 import HeroDemo from '@/components/hero-demo'
-import TeamImages from '@/components/team-images'
-import Timeline from '@/components/timeline'
-import Team from '@/components/team'
-import DemoContent from '@/components/demo-content'
-import TestimonialsCarousel from '@/components/testimonials-carousel'
-import Career from '@/components/career'
-import Clients from '@/components/clients'
-import Newsletter from '@/components/newsletter'
+import ContentDemo from '@/components/content-demo'
 
 export default function Demo() {
   return (
     <>
       <HeroDemo />
-      <DemoContent />
+      <ContentDemo />
     </>
   )
 }
