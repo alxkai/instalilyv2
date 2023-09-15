@@ -30,7 +30,9 @@ export default function Tabs() {
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center pb-12" data-aos-id-tabs>
             <h2 className="GraebenbachMono text-[#F2F2F2] h2 mb-2" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">AN AI AGENT FOR EVERY OCCASION</h2>
-            <p className="GraebenbachMono text-[22px] text-gray-100" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">Our action agents work for you and your business 24 / 7 / 365.</p>
+            <p className="GraebenbachMono text-[22px] text-gray-100" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">
+              Create and deploy AI Action Agents with various use cases
+            </p>
           </div>
 
           {/* Section content */}
