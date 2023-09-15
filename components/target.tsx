@@ -5,7 +5,7 @@ import Lily3 from '@/public/images/lily3.png'
 
 export default function Target() {
   return (
-    <section>
+    <section id="who-we-are">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-0">
 
