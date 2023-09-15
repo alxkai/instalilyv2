@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import TargetImage from '@/public/images/features-02-image.png'
 import Link from 'next/link';
+import Lily3 from '@/public/images/lily3.png'
 
 export default function Target() {
   return (
@@ -10,7 +11,7 @@ export default function Target() {
 
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center mb-20 md:mb-0 pt-0 md:pb-20">
-            <h2 className="GraebenbachMono h3 text-[#F2F2F2]" data-aos="fade-up">INSTALILY EMPOWERS ENTERPRISES WITH AI.</h2>
+            <h2 className="GraebenbachMono h3 text-[#F2F2F2]" data-aos="fade-up">WE ARE ON A MISSION TO EMPOWER ENTERPRISES WITH AI.</h2>
           </div>
 
           {/* Items */}
@@ -20,8 +21,8 @@ export default function Target() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
 
               {/* Image */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-right" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
-                <Image className="mx-auto md:max-w-none" src={TargetImage} width={540} height={520} alt="Features 02" />
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-20 ml-0 md:ml-12 rtl" data-aos="fade-right" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
+                <Image className="mx-auto md:max-w-none" src={Lily3} width={400} height={520} alt="Features 02" />
               </div>
 
               {/* Content */}
