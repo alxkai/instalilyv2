@@ -13,11 +13,11 @@ export default function News() {
   return (
     <section id="news" className="bg-[#F2F2F2]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-12">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-10">
-            <h2 className="h2 GraebenbachMono text-[#181818]" data-aos="fade-up">RECENT NEWS</h2>
+            <h2 className="h2 text-[#181818]" data-aos="fade-up">Recent News</h2>
           </div>
 
           {/* Articles list */}
