@@ -1,7 +1,7 @@
-"use client"
-import React, { useState } from 'react';
-import ModalVideo from 'react-modal-video';
-import 'react-modal-video/css/modal-video.min.css';
+'use client'
+import React, { useState } from 'react'
+import ModalVideo from 'react-modal-video'
+import 'react-modal-video/css/modal-video.min.css'
 
 export default function ContentDemo() {
   const [isOpen, setOpen] = useState(false);
@@ -57,7 +57,7 @@ export default function ContentDemo() {
     },
   ]);
 
-  const openModal = (url) => {
+  const openModal = (url: string) => {
     setVideoUrl(url);
     setOpen(true);
   };
