@@ -11,13 +11,13 @@ export default function News() {
   const posts = allPosts.slice(0,3)
 
   return (
-    <section id="news">
+    <section id="news" className="bg-[#F2F2F2]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-12">
-            <h2 className="h2 GraebenbachMono text-[#F2F2F2]" data-aos="fade-up">RECENT NEWS</h2>
+          <div className="max-w-3xl mx-auto text-center pb-10">
+            <h2 className="h2 GraebenbachMono text-[#181818]" data-aos="fade-up">RECENT NEWS</h2>
           </div>
 
           {/* Articles list */}
