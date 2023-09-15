@@ -32,7 +32,7 @@ export default function Tabs() {
           <div className="max-w-6xl mx-auto text-center pb-12" data-aos-id-tabs>
             <h2 className="GraebenbachMono text-[#F2F2F2] h2 mb-2" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">AN AI AGENT FOR EVERY USE CASE</h2>
             <p className="GraebenbachMono text-[22px] text-gray-100" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">
-              Create and deploy AI Action Agents with various use cases
+              Create and deploy specialized AI Action Agents
             </p>
           </div>
 
@@ -257,7 +257,7 @@ export default function Tabs() {
               </svg>
               <h4 className="GraebenbachMono h4 mb-2 text-[#F2F2F2]">3. RETENTION</h4>
               <p className="text-lg text-gray-400 text-center">
-                Secure customer relationships and improve your CRM success
+                Secure customer relationships and see substantial gains in your CRR
               </p>
             </div>
         </div>

@@ -5,7 +5,7 @@ export default function Demo() {
         <div className="pb-12 md:pb-20">
 
           {/* Section header */}
-          <h3 className="h3 mb-8 pt-8">Welcome to our Demo Site
+          <h3 className="h3 mb-8 pt-8" data-aos="fade-up" data-aos-anchor="[data-aos-id-career]">Welcome to our Demo Site
           <br/>
           <span className="flex justify-between items-center text-xl font-bold text-gray-500 transition duration-150 pt-2 ease-in-out">An archive of product demos for our clients</span></h3>
 
