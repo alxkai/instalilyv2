@@ -30,7 +30,7 @@ export default function Tabs() {
 
           {/* Section header */}
           <div className="max-w-6xl mx-auto text-center pb-12" data-aos-id-tabs>
-            <h2 className="GraebenbachMono text-[#F2F2F2] h2 mb-2" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">AN AI AGENT FOR EVERY OCCASION</h2>
+            <h2 className="GraebenbachMono text-[#F2F2F2] h2 mb-2" data-aos="fade-up" data-aos-anchor="[data-aos-id-tabs]">AN AI AGENT FOR EVERY USE CASE</h2>
             <p className="GraebenbachMono text-[22px] text-gray-100" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-tabs]">
               Create and deploy AI Action Agents with various use cases
             </p>
@@ -92,10 +92,10 @@ export default function Tabs() {
                       <br/>
                       <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
                         <li className="flex items-center mx-2 my-1">
-                          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                          <svg className="w-3 h-3 fill-current text-green-500 mr-2 mb-14 md:mb-7 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                           </svg>
-                          <span>Visualize deeper insights into your ad performance</span>
+                          <span>Enable data-driven decision making to enhance customer satisfaction through real-time bot insights.</span>
                         </li>
                         <li className="flex items-center mx-2 my-1">
                           <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -108,12 +108,6 @@ export default function Tabs() {
                             <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                           </svg>
                           <span>Brainstorm effective marketing strategy</span>
-                        </li>
-                        <li className="flex items-center mx-2 my-1">
-                          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                          </svg>
-                          <span>Automate workflows and recurring task items</span>
                         </li>
                       </ul>
                     </div>
@@ -164,12 +158,6 @@ export default function Tabs() {
                           </svg>
                           <span>Increase buyers confidence and decrease time to cart</span>
                         </li>
-                        <li className="flex items-center mx-2 my-1">
-                          <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                          </svg>
-                          <span>Apply innovative technologies to your online experience</span>
-                        </li>
                       </ul>
                     </div>
                   </article>
@@ -205,13 +193,7 @@ export default function Tabs() {
                             <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                               <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                             </svg>
-                            <span>Streamline order processing with accuracy</span>
-                          </li>
-                          <li className="flex items-center mx-2 my-1">
-                            <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                            </svg>
-                            <span>Seamless returns and refunds for customer satisfaction</span>
+                            <span>Identify opportunities to upsell related products</span>
                           </li>
                           <li className="flex items-center mx-2 my-1">
                             <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -223,7 +205,7 @@ export default function Tabs() {
                             <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                               <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                             </svg>
-                            <span>Identify opportunities to upsell related products</span>
+                            <span>Streamline order processing with accuracy</span>
                           </li>
                         </ul>
                     </div>
@@ -235,7 +217,7 @@ export default function Tabs() {
             </div>
 
           </div>
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-12 pb-10 items-start md:max-w-none"  id="who-we-are">
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-12 pb-10 items-start md:max-w-none">
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up">
               <div aria-hidden="true" className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block" style={{ width: 'calc(100% - 32px)', left: 'calc(50% + 48px)', top: '32px' }} data-aos="fade-in" data-aos-delay="200"></div>
@@ -246,7 +228,7 @@ export default function Tabs() {
                 <path className="stroke-current text-purple-100" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="GraebenbachMono h4 mb-2 text-[#F2F2F2]">1. MARKETING AI AGENT</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">An AI assistant tailored exactly to your enterprise needs.</p>
             </div>
 
 
@@ -262,7 +244,7 @@ export default function Tabs() {
                 <circle className="animate-pulse" cx="32" cy="32" r="10" fill="#A2F9DA" />
               </svg>
               <h4 className="GraebenbachMono h4 mb-2 text-[#F2F2F2]">2. ACTIVATION</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">Increase points of interception for customer impact.</p>
             </div>
 
             {/* 3rd item */}
@@ -274,7 +256,9 @@ export default function Tabs() {
                 <path className="stroke-current text-purple-100" d="M42 29h-3M42 34h-7M42 39H31" strokeWidth="2" strokeLinecap="square" />
               </svg>
               <h4 className="GraebenbachMono h4 mb-2 text-[#F2F2F2]">3. RETENTION</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p className="text-lg text-gray-400 text-center">
+                Secure customer relationships and improve your CRM success
+              </p>
             </div>
         </div>
         </div>

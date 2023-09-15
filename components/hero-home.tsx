@@ -23,8 +23,9 @@ export default function HeroHome() {
                 YOUR NEXT PRIVATE AI ACTION AGENT
               </span>
             </div>
+            <br/>
             <div className="bg-opacity-70 bg-gray-800 p-1 mt-0 inline-block">
-              <p className="GraebenbachMono text-[17px] text-gray-100 mb-0" data-aos="fade-up" data-aos-delay="200">
+              <p className="GraebenbachMono text-[18px] text-gray-100 mb-0" data-aos="fade-up" data-aos-delay="200">
                 Gain early access to the next evolution of AI powered marketing and e-commerce tools.
               </p>
             </div>

@@ -7,6 +7,7 @@ import HeroDemo from '@/components/hero-demo'
 import TeamImages from '@/components/team-images'
 import Timeline from '@/components/timeline'
 import Team from '@/components/team'
+import DemoContent from '@/components/demo-content'
 import TestimonialsCarousel from '@/components/testimonials-carousel'
 import Career from '@/components/career'
 import Clients from '@/components/clients'
@@ -16,8 +17,7 @@ export default function Demo() {
   return (
     <>
       <HeroDemo />
-      <Team />
-      <Career />
+      <DemoContent />
     </>
   )
 }
