@@ -9,7 +9,9 @@ export default function HeroHome() {
     <section 
       className="bg-[#A2F9DA]"
       style={{
-        backgroundImage: `url('/images/grow.png')` 
+        backgroundImage: `url('/images/grow.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'top',
       }}
     >
       <div className="w-full mx-auto px-4 sm:px-6 relative">
