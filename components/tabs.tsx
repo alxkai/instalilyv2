@@ -235,7 +235,7 @@ export default function Tabs() {
             </div>
 
           </div>
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-20 pb-0 items-start md:max-w-none"  id="who-we-are">
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 lg:gap-16 pt-12 pb-10 items-start md:max-w-none"  id="who-we-are">
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up">
               <div aria-hidden="true" className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block" style={{ width: 'calc(100% - 32px)', left: 'calc(50% + 48px)', top: '32px' }} data-aos="fade-in" data-aos-delay="200"></div>

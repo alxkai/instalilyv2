@@ -9,8 +9,8 @@ export default function Target() {
         <div className="py-0">
 
           {/* Section header */}
-          <div className="max-w-6xl mx-auto text-center pb-12 pt-0 md:pb-20">
-            <h2 className="GraebenbachMono h3 text-[#F2F2F2]" data-aos="fade-up">We are on a mission to empower marketers and turbocharge growth in their business.</h2>
+          <div className="max-w-6xl mx-auto text-center mb-20 md:mb-0 pt-0 md:pb-20">
+            <h2 className="GraebenbachMono h3 text-[#F2F2F2]" data-aos="fade-up">INSTALILY EMPOWERS ENTERPRISES WITH AI.</h2>
           </div>
 
           {/* Items */}
@@ -28,15 +28,15 @@ export default function Target() {
               <div className="max-w-xl mb-10 md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
                   <div data-aos="fade-left" data-aos-delay="200" data-aos-anchor="[data-aos-id-target]">
-                    <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">.</span> For developers</h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Enterprise Adoption</span></h4>
+                    <p className="text-lg text-gray-400">We offer a foundationally different perspective on the future of AI-powered solutions, not just focused on reasoning but also enabling businesses to drive actionable outcomes.</p>
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
-                  <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">.</span> For designers</h4>
+                  <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Intelligent Action Assistant</span></h4>
                     <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
                   <div className="mt-6 mb-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
-                  <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">.</span> For teams</h4>
+                  <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Instalily Decisioning System</span></h4>
                     <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
                   <div className="mb-12">
