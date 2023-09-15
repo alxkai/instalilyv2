@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-import ModalVideo from 'react-modal-video'
+import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.min.css'
 
 export default function ContentDemo() {
@@ -137,12 +137,8 @@ export default function ContentDemo() {
         </div>
       </div>
 
-      <ModalVideo
-        channel="custom"
-        isOpen={isOpen}
-        onClose={closeModal}
-      >
-        <iframe
+      {isOpen && (
+        <iframe 
           title="Video Demo"
           width="100%"
           height="100%"
@@ -150,7 +146,14 @@ export default function ContentDemo() {
           frameBorder="0"
           allowFullScreen
         />
-      </ModalVideo>
+      )}
+
+      <ModalVideo
+        channel="custom"
+        url={videoUrl}
+        isOpen={isOpen}
+        onClose={closeModal}
+      />
     </section>
   );
 }
