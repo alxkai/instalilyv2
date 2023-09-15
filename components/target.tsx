@@ -33,11 +33,11 @@ export default function Target() {
                   </div>
                   <div className="mt-6" data-aos="fade-left" data-aos-delay="400" data-aos-anchor="[data-aos-id-target]">
                   <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Intelligent Action Assistant</span></h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">We combine the power of globalized reasoning and localized data, leveraging both proprietary and open-source models..</p>
                   </div>
                   <div className="mt-6 mb-6" data-aos="fade-left" data-aos-delay="600" data-aos-anchor="[data-aos-id-target]">
                   <h4 className="h4 mb-2 text-[#F2F2F2]"><span className="text-[#F2F2F2]">Instalily Decisioning System</span></h4>
-                    <p className="text-lg text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p className="text-lg text-gray-400">We have developed a sophisticated decisioning system that optimizes cost, required output fidelity, potential for hallucination, and the balance between reasoning and action. This ensures that your business LLM will be tailored to your unique needs.</p>
                   </div>
                   <div className="mb-12">
                     <Link href="/about" target="_blank" rel="noopener noreferrer" className="btn-sm pt-2.5 GraebenbachMonoMed text-[#181818] text-[14px] bg-[#A2F9DA] hover:bg-[#E0FF1F] w-full">
