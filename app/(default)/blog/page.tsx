@@ -59,11 +59,9 @@ export default function Blog() {
                   </header>
                   <p className="text-lg text-gray-400 grow">{featuredPost.summary}</p>
                   <footer className="flex items-center mt-4">
-                    <Link href="#">
                       <img className="rounded-full shrink-0 mr-4" src={featuredPost.authorImg} width={40} height={40} alt={featuredPost.author} />
-                    </Link>
                     <div>
-                      <Link href="#" className="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">{featuredPost.author}</Link>
+                      {featuredPost.author}
                       <span className="text-gray-700"> - </span>
                       <span className="text-gray-500"><PostDate dateString={featuredPost.publishedAt} /></span>
                     </div>

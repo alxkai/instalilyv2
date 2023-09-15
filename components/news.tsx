@@ -11,8 +11,8 @@ export default function News() {
   const posts = allPosts.slice(0,3)
 
   return (
-    <section id="news" className="bg-[#F2F2F2]">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section id="news" className="bg-[#F2F2F2] bg-gradient-to-b from-gray-100 via-transparent to-transparent">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
         <div className="py-12 md:py-12">
 
           {/* Section header */}
