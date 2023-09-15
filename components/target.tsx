@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Target() {
   return (
-    <section id="who-we-are">
+    <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-0">
 
