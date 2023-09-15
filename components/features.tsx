@@ -30,7 +30,7 @@ export default function Features() {
                 <div className="md:pr-4 pt-4 pb-4 lg:pr-12 xl:pr-16">
                   <div className="GraebenbachMono text-[#F2F2F2] text-xl mb-1">Lightning fast workflow</div>
                   <h3 className="GraebenbachMonoMed text-[#A2F9DA] text-[44px] mb-1">ACTION AI ASSISTANT</h3>
-                  <p className="text-xl text-gray-400 mb-4">Companies depend on Instalily to turbocharge their business through our intelligent conversational chatbot assistant and Enterprise-grade Insights Platform. </p>
+                  <p className="text-xl text-gray-400 mb-4">Companies depend on Instalily to turbocharge their business through our intelligent conversational chatbot assistant and enterprise-grade Insights Platform. </p>
                   <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
