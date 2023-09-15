@@ -30,37 +30,31 @@ export default function Features() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="GraebenbachMono text-[#F2F2F2] text-xl mb-2">Lightning fast workflow</div>
                   <h3 className="GraebenbachMonoMed text-[#A2F9DA] text-[44px] mb-1">CREATIVE AI AGENT</h3>
-                  <p className="text-xl text-gray-400 mb-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+                  <p className="text-xl text-gray-400 mb-4">Companies depend on Instalily to turbocharge their business through our conversational assistant and Enterprise-grade Insights Platform. </p>
                   <ul className="flex flex-wrap text-lg text-gray-400 -mx-2 -my-1">
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Premium statistics</span>
+                      <span>Automate tasks</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Unlimited jobs</span>
+                      <span>Respond to changing customer needs</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Free goods</span>
+                      <span>Flexibility and Scale</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>No code required</span>
-                    </li>
-                    <li className="flex items-center mx-2 my-1">
-                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
-                      </svg>
-                      <span>Always up to date</span>
+                      <span>Outpace competitors</span>
                     </li>
                   </ul>
                   <div className="flex items-start mt-8">
