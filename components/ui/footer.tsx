@@ -66,7 +66,7 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
 
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="text-right flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link href="https://twitter.com/instalily_ai" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center text-[#F2F2F2] bg-gray-800 hover:text-[#181818] hover:bg-[#A2F9DA] rounded-full transition duration-150 ease-in-out" aria-label="Twitter">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
