@@ -148,10 +148,11 @@ export default function ContentDemo() {
             allowFullScreen
           ></iframe>
           <button className="close-button" onClick={closeModal}>
-            X CLOSE
+            X
           </button>
         </div>
       )}
+
       
       <style jsx>{`
         .video-modal {
