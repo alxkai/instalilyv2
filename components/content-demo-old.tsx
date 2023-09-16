@@ -138,46 +138,22 @@ export default function ContentDemo() {
       </div>
 
       {isOpen && (
-        <div className="video-modal">
-          <iframe
-            title="Video Demo"
-            width="100%"
-            height="100%"
-            src={videoUrl}
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-          <button className="close-button" onClick={closeModal}>
-            X
-          </button>
-        </div>
+        <iframe 
+          title="Video Demo"
+          width="100%"
+          height="100%"
+          src={videoUrl}
+          frameBorder="0"
+          allowFullScreen
+        />
       )}
 
-      
-      <style jsx>{`
-        .video-modal {
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background-color: rgba(0, 0, 0, 0.8);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .close-button {
-          position: absolute;
-          top: 10px;
-          right: 10px;
-          background: none;
-          border: none;
-          color: white;
-          font-size: 20px;
-          cursor: pointer;
-        }
-      `}</style>
+      <ModalVideo
+        channel="custom"
+        url={videoUrl}
+        isOpen={isOpen}
+        onClose={closeModal}
+      />
     </section>
   );
 }

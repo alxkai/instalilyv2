@@ -14,7 +14,7 @@ export default function Demo() {
   const [password, setPassword] = useState('');
   const correctPassword = 'demo'; // Replace with your actual password
 
-  const handlePasswordSubmit = (e) => {
+  const handlePasswordSubmit = (e: React.FormEvent) => {
     e.preventDefault(); // Prevent the form from submitting and page refreshing
 
     if (password === correctPassword) {
@@ -92,4 +92,3 @@ export default function Demo() {
     </>
   );
 }
-
