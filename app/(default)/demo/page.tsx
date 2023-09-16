@@ -14,7 +14,9 @@ export default function Demo() {
   const [password, setPassword] = useState('');
   const correctPassword = 'demo'; // Replace with your actual password
 
-  const handlePasswordSubmit = () => {
+  const handlePasswordSubmit = (e) => {
+    e.preventDefault(); // Prevent the form from submitting and page refreshing
+
     if (password === correctPassword) {
       setIsAuthenticated(true);
     } else {
@@ -29,15 +31,18 @@ export default function Demo() {
         <ContentDemo />
       ) : (
         <div className="password-prompt">
-          <div className="password-form">
-            <input
-              type="password"
-              placeholder="Enter Password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-            />
-            <button onClick={handlePasswordSubmit}>Submit</button>
-          </div>
+          <form onSubmit={handlePasswordSubmit}>
+            <div className="password-form">
+              <h2>Password Required</h2>
+              <input
+                type="password"
+                placeholder="Enter Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+              <button type="submit">Submit</button>
+            </div>
+          </form>
           <style jsx>{`
             .password-prompt {
               display: flex;
@@ -87,3 +92,4 @@ export default function Demo() {
     </>
   );
 }
+
