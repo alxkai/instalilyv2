@@ -1,8 +1,9 @@
+"use client"
 import Image from 'next/image';
-import Link from 'next/link';
-import Dropdown from '@/components/utils/dropdown';
 import MobileMenu from './mobile-menu';
 import LogoWhite from '@/public/images/logo_white.svg';
+import NextLink from 'next/link';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function Header() {
   return (
@@ -12,9 +13,9 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Instalily">
+            <NextLink href="/" className="block" aria-label="Instalily">
               <Image src={LogoWhite} alt="Logo" className="w-[250px]" />
-            </Link>
+            </NextLink>
           </div>
 
           {/* Desktop navigation */}
@@ -22,36 +23,48 @@ export default function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link
-                  href="/#what-we-do"
+                <Link 
+                  to="what-we-do"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
                   className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   WHAT WE DO
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/#who-we-are"
-                  className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                <Link 
+                    to="who-we-are"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   WHO WE ARE
                 </Link>
               </li>
               <li>
-                <Link
-                  href="/#news"
-                  className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                <Link 
+                    to="news"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   NEWS
                 </Link>
               </li>
               <li>
-                <Link
+                <NextLink
                   href="/about"
                   className="text-[#f2f2f2] hover:text-[#E0FF1F] px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   TEAM
-                </Link>
+                </NextLink>
               </li>
               {/* 1st level: hover 
               <Dropdown title="Support">
@@ -97,14 +110,14 @@ export default function Header() {
               </li>
               */}
               <li>
-                <Link
+                <NextLink
                   href="https://forms.fillout.com/t/kuanhAGqDwus"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-sm pt-2.5 GraebenbachMonoMed text-[#181818] text-[14px] bg-[#A2F9DA] hover:bg-[#E0FF1F] ml-3"
                 >
                   GET STARTED
-                </Link>
+                </NextLink>
               </li>
             </ul>
           </nav>
